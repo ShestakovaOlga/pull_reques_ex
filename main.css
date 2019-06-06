@@ -1,8 +1,19 @@
+body{
+  min-height: 100vh;
+}
+.page{
+  height: 100vh;
+}
+
 .head {
     background: #fc0;
     height: 100px;
     position: relative;
     width: 100px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+
   }
   .face {
     font-family: 'courier new', serif;
